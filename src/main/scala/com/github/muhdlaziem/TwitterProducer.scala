@@ -14,10 +14,10 @@ import java.util.concurrent.{BlockingQueue, LinkedBlockingQueue, TimeUnit}
 import scala.jdk.CollectionConverters._
 
 object TwitterProducer {
-  private val consumerKey: String = "KC0TwUuxW6LHynIyVrg5lUPbx"
-  private val consumerSecret: String = "RYz65GZYBfAbFvxdIMrkkiZ0X4oSLhMZkwepWjXzb53PJFHhCe"
-  private val token: String = "413815311-tfVFxgSQstKlsP99lQgDeFcmLRR84S0tKvHAuj1L"
-  private val secret: String = "t4uov6DTFxWuhiIB2YB1zJ6IVfh8HZUpcEk71sUvmNKK5"
+  private val consumerKey: String = ""
+  private val consumerSecret: String = ""
+  private val token: String = ""
+  private val secret: String = ""
   private val interestList: List[String] = List("Ronaldo")
   val log: Logger = LoggerFactory.getLogger(TwitterProducer.getClass.getName)
 
